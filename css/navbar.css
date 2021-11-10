@@ -6,16 +6,37 @@
 }
 
 .header .navbar {
-    background: rgba(0, 0, 0, 0.631);
+    background: rgba(0, 0, 0, 0.7);
     font-family: 'Prata', serif;
     z-index: 3;
+    display: flex;
+    float: left;
 }
 
 /* Digital Ginés*/
 .navbar-text {
-    font-size: 20px;
+    margin-right: -25px;
+    margin-left: 10px;
 }
 .nav-item {
     z-index: 3;
+    padding-left: 100px;
+    padding-top: 20px;
 }
-
+.navbar-toggler{
+    background-color: beige;
+}
+.logo{
+    padding-left: 20px;
+}
+.logo_titulo{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    padding: 70px;
+    
+}
+.titulo{
+    display: flex;
+    margin-top: 80px;
+}

@@ -4,6 +4,7 @@
     padding: 8rem 0;
     background-color: #fc6d2c;
     background-size: contain;
+    font-size: 20px;
 }
 
 /*----LINKS----*/
@@ -34,15 +35,23 @@
     font-style:normal;
 }
 
-.mad-footer .mad-icon-btn {
-    color: #040a1c;
-    font-size: 1.875rem;
-}
-
 /*-----TÏTULOS----*/
 h4 {
     font-size: 2.5rem !important;
     line-height: 3rem !important;
+}
+
+
+/*------CONTACT US-----*/
+.widget_contact_us{
+    padding-right: 25px;
+}
+.mad-social-icons{
+    padding-right: 30px;
+}
+.logo-footer{
+    margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 
@@ -52,9 +61,25 @@ h4 {
 }
 .mad-social-icons ul li {
     padding: 1rem 1rem 0;
-    font-size: 1.3125rem;
+    font-size: 1.6rem;
 }
 
+/*------MENÚ-------*/
+.widget_nav_menu{
+    padding-left: -25px;
+}
+.menu{
+    padding-left: 5px;
+}
+
+/*------HORARIO-------*/
+.widget_open_time{
+    padding: -25px;
+    margin-bottom: 60px;
+}
+.mad-timetable{
+    padding-right: 38px;
+}
 /*-----COPYRIGHTS-----*/
 .copyrights {
     margin-top: 4.25rem;
@@ -63,5 +88,5 @@ h4 {
 }
 
 .copyrights a {
-    color: inherit; /*le da el color blanco*/
+    color: inherit;
 }
