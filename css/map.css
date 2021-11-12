@@ -1,15 +1,13 @@
 .mapa {
-    padding: 100px 30px 30px 30px;
-    background-color: rgb(247, 239, 239);
+    padding: 30px 30px 30px 30px;
+    background-color: white;
 }
 .map-responsive{
     overflow:hidden;
-    padding-bottom:50%;
+    padding-bottom:45%;
     position:relative;
 }
 .map-responsive iframe{
-    left:0;
-    top:0;
     height:469px;
     width:100%;
     position:absolute;
