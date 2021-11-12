@@ -1,6 +1,7 @@
 @import "./navbar.css";
 @import "./carousel.css";
 @import "./footer.css";
+@import "./map.css";
 
 body {
     font-family: "futura", serif !important;
