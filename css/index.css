@@ -2,6 +2,7 @@
 @import "./carousel.css";
 @import "./footer.css";
 @import "./map.css";
+@import "./info-empresa.css";
 
 body {
     font-family: "futura", serif !important;

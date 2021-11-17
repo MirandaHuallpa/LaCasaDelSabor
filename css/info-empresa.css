@@ -1,0 +1,46 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elementor-column-wrap{
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+    display: flex;
+}
+.elementor-widget-wrap{
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    padding: 30px;
+    text-align: center;
+}
+.elementor-column-wrap .horario{
+    background-color: #fc6d2c;
+    color: #FFFFFF;
+}
+h2{
+    font-size: 100px;
+    padding-bottom: 3rem;
+}
+
+/*Botón de reserva*/
+.elementor-widget-lemar_buttons{
+    max-width: auto;
+    padding: 0px 80px 0px 80px;
+}
+.elementor-widget-container{
+    margin: 0px 8px 0px 0px;
+    border-style:solid;
+    border-width: 2.5px;
+    border-color: #FFFFFF;
+}
+.lemar-buttons{
+    text-align: center;
+}
+
+@media (max-width: 767px){
+    .col{
+        width:100%;
+    }
+}
