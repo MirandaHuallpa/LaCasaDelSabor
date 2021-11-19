@@ -23,6 +23,11 @@ h2{
     font-size: 100px;
     padding-bottom: 3rem;
 }
+/*CONTACTO*/
+.iconos-sociales > a{
+    font-size: 1.2rem;
+    padding: 10px;
+}
 
 /*Botón de reserva*/
 .elementor-widget-lemar_buttons{

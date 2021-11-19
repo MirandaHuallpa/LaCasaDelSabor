@@ -24,7 +24,7 @@
 
 <body>
     <!------HEADER------->
-    <header class="header">
+    <header id="header-inicio" class="header">
 
         <!------NAVEGADOR------->
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
@@ -40,13 +40,19 @@
               <div class="collapse navbar-collapse justify-content-between" id="navbarText">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                   <li class="nav-item primero">
-                    <a class="nav-link active text-light" aria-current="page" href="#">MENÚ</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#header-inicio">INICIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">CONTACTO</a>
+                    <a class="nav-link text-light" href="#">QUÉNES SOMOS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">CÓMO LLEGAR</a>
+                    <a class="nav-link text-light" href="#carouselExampleDark">CARTA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#como-llegar">CÓMO LLEGAR</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">IDIOMA</a>
                   </li>
                 </ul>
                 <span class="navbar-text">
@@ -58,10 +64,16 @@
             </div>
         </nav>
 
+        <section class="redes-sociales">
+          <a class="btn btn-dark btn-lg" style="background-color: #fc6d2c;" target="_blank" href="https://es-la.facebook.com/pages/category/Restaurant/La-Casa-del-Sabor-1838372379825641/"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-dark btn-lg" style="background-color: #fc6d2c;" target="_blank" href="https://www.instagram.com/restaurante.lacasadelsabor/"><i class="fab fa-instagram"></i></a>
+        </section>
+        
     </header>
     
     
-    <!------CARROUSEL------->
+    <!------CAROUSEL------->
+    <div id="carta-de-menu" class="carta-de-menu">
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -70,27 +82,31 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="imagenes_profesionales/galeria_home_1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+          <img src="imagenes_profesionales/lomo_saltado2.jpg" class="d-block w-100" alt="lomo_saltado">
+
+          <div class="carousel-caption d-none d-md-block text-white">
+            <a target="_blank" href="platos_a_la_carta.html" style="font-size: 80px; color:#f7f2f0; text-shadow: 3px 3px 0 rgb(48, 2, 2); text-decoration: none;">PLATOS A LA CARTA</a>
+            <p style="font-size: 40px;text-shadow: 2px 2px 0 rgb(48, 2, 2);">Platos especialmente pensados en paladares exquisitos que quieran probar las especialidades de la casa.</p>
           </div>
         </div>
+
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="imagenes_profesionales/galeria_home_2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+          <img src="imagenes_profesionales/hamburguesas.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h5 style="font-size: 80px; color:#f7f2f0; text-shadow: 3px 3px 0 rgb(48, 2, 2); text-decoration: none;">HAMBURGUESAS</h5>
+            <p style="font-size: 40px; color:#f7f2f0; text-shadow: 3px 3px 0 rgb(48, 2, 2);">¡Mucha variedad y sobre todo bien servidas! Si tienes hambre mientras esperas algunas impresiones en Digital Ginés, ya sabes dónde pedirlas.</p>
           </div>
         </div>
+
         <div class="carousel-item">
-          <img src="imagenes_profesionales/galeria_home_3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+          <img src="imagenes_profesionales/jugos-naturales.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h5 style="font-size: 80px; color:#f7f2f0; text-shadow: 3px 3px 0 rgb(48, 2, 2);">JUGOS NATURALES</h5>
+            <p style="font-size: 40px; color:#f7f2f0; text-shadow: 3px 3px 0 rgb(48, 2, 2);">¡Riquísimos y naturales! Lo puedes pedir para refrescarte, mientras esperas algún trámite en Digital Ginés.</p>
           </div>
         </div>
       </div>
+
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -100,9 +116,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    </div>
 
     <!----------MAPA----------->
-    <section class="mapa">
+    <section id="como-llegar" class="mapa">
       <div class="map-responsive">
         <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d681.4726660757492!2d-81.05267424896503!3d-4.10687259188546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x903691360f8eb873%3A0x392a90352525bdde!2sLa%20Casa%20Del%20Sabor!5e0!3m2!1ses!2sar!4v1636678741888!5m2!1ses!2sar" title="el lago restaurante marbella" aria-label="el lago restaurante marbella"></iframe>
       </div>
@@ -138,6 +155,10 @@
                   <h2>Contacto</h2>
                   <p><i class="fas fa-mobile-alt" style="padding: 6px;"></i>+51 73 290766</p>
                   <p><i class="fas fa-envelope" style="font-size: 1rem; padding: 6px;"></i>lacasadelsabor68@gmail.com</p>
+                  <div class="iconos-sociales">
+                    <a target="_blank" href="https://es-la.facebook.com/pages/category/Restaurant/La-Casa-del-Sabor-1838372379825641/"><i class="fab fa-facebook-f" style="color: #0a0300;"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/restaurante.lacasadelsabor/"><i class="fab fa-instagram" style="color: #0a0300;"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -227,10 +248,7 @@
                         <a target="_blank" href="https://es-la.facebook.com/pages/category/Restaurant/La-Casa-del-Sabor-1838372379825641/"><i class="fab fa-facebook-f"></i></a>
                       </li>
                       <li class="insta-icon">
-                        <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
-                      </li>
-                      <li class="tripadvisor-icon">
-                        <a target="_blank" href="#"><i class="far fa-envelope"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/restaurante.lacasadelsabor/"><i class="fab fa-instagram"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -243,22 +261,19 @@
                   <div class="menu-footer-container">
                     <ul id="menu-footer" class="menu">
                       <li id="menu-item-3112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-3112">
-                        <a href="#">INICIO</a>
+                        <a href="#header-inicio">INICIO</a>
                       </li>
                       <li id="menu-item-3113" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-3113">
-                        <a href="#" aria-current="page">MIDI STYLE</a>
+                        <a href="#" aria-current="page">QUIÉNES SOMOS</a>
                       </li>
                       <li id="menu-item-3114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3114">
-                        <a href="#">CARTA</a>
+                        <a href="#carta-de-menu">CARTA</a>
                       </li>
                       <li id="menu-item-3116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3116">
-                        <a href="#">CONTACTO</a>
+                        <a href="#como-llegar">CÓMO LLEGAR</a>
                       </li>
                       <li id="menu-item-3117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3117">
-                        <a href="#">RESERVAS</a>
-                      </li>
-                      <li id="menu-item-3118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3118">
-                        <a href="#">RESTAURANTE EL LAGO</a>
+                        <a href="#">IDIOMA</a>
                       </li>
 
                     </ul>
