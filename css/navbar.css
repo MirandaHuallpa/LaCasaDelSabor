@@ -23,7 +23,7 @@
 }
 /*LINKS*/
 .navbar a{
-    text-decoration: none; outline: none !important;
+    text-decoration: none;
     vertical-align: baseline;
 }
 .navbar a:link{
