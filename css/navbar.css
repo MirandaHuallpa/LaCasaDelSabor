@@ -1,6 +1,9 @@
 /*foto principal*/
 .header {
-    background: url(../imagenes_profesionales/La\ Casa\ del\ Sabor\ \(1\).png) no-repeat center;
+    border: 2px solid black;
+    background: url(../imagenes_profesionales/La\ Casa\ del\ Sabor\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     min-height: 100vh;
 }
@@ -30,7 +33,7 @@
     color: aliceblue;
 }
 .navbar a:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 /*CAJA MENU*/
 .nav-item {
