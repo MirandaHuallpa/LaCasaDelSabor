@@ -1,51 +1,35 @@
-.row{
-    display: flex;
-    flex-wrap: wrap;
+.info-empresa{
+    padding: 20px;
 }
-
-.elementor-column-wrap{
-    padding: 30px 30px 30px 30px;
-    width: 100%;
-    display: flex;
-}
-.elementor-widget-wrap{
-    width: 100%;
+/*Caja de los tres contenidos*/
+.info-empresa .elementor-widget-wrap{
     flex-wrap: wrap;
+    min-height: 55vh;
     font-size: 1.2rem;
     padding: 30px;
     text-align: center;
 }
-.elementor-column-wrap .horario{
+.info-empresa .elementor-column-wrap .horario{
     background-color: #fc6d2c;
     color: #FFFFFF;
 }
-h2{
-    font-size: 100px;
+.info-empresa h2{
+    font-size: 50px;
     padding-bottom: 3rem;
 }
 /*CONTACTO*/
-.iconos-sociales > a{
+.info-empresa .iconos-sociales > a{
     font-size: 1.2rem;
     padding: 10px;
 }
 
 /*Botón de reserva*/
 .elementor-widget-lemar_buttons{
-    max-width: auto;
-    padding: 0px 80px 0px 80px;
+    margin: 0px 50px 0px 50px;
 }
 .elementor-widget-container{
-    margin: 0px 8px 0px 0px;
+    margin-top: 30px;
     border-style:solid;
-    border-width: 2.5px;
-    border-color: #FFFFFF;
-}
-.lemar-buttons{
-    text-align: center;
+    border-width: 3px;
 }
 
-@media (max-width: 767px){
-    .col{
-        width:100%;
-    }
-}
