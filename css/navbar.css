@@ -19,3 +19,12 @@
     z-index: 3;
 }
 
+/*REDES SOCIALES*/
+.redes-sociales{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 10%;
+    padding-right: 50px;
+    padding-top: 200px;
+}
