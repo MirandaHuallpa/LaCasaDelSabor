@@ -1,53 +1,21 @@
 /*foto principal*/
 .header {
-    background: url(../imagenes_profesionales/La\ Casa\ del\ Sabor\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../imagenes_profesionales/foto_principal_con_titulo.png) no-repeat center;
     background-size: cover;
     min-height: 100vh;
 }
 
 .header .navbar {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.631);
     font-family: 'Prata', serif;
     z-index: 3;
 }
 
-/*CASA DEL SABOR LOGO*/
-.logo{
-    padding-left: 20px;
-    margin-right: -90px;
-}
 /* Digital Ginés*/
 .navbar-text {
-    margin-right: -25px;
-    margin-left: 10px;
+    font-size: 20px;
 }
-/*LINKS*/
-.navbar a{
-    text-decoration: none;
-    vertical-align: baseline;
-}
-.navbar a:link{
-    color: aliceblue;
-}
-.navbar a:hover {
-    transform: scale(1.2);
-}
-/*CAJA MENU*/
 .nav-item {
     z-index: 3;
-    padding-left: 100px;
-    padding-top: 20px;
 }
 
-
-/*REDES SOCIALES*/
-.redes-sociales{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 10%;
-    padding-right: 50px;
-    padding-top: 200px;
-}
